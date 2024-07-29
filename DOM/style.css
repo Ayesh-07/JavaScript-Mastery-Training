@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    background-color:beige;
+   
+    
+}
+
+h4{
+    color: blue;
+}
+
+h2{
+    color:orangered;
+   
+    
+}
+.intro{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 5px;
+}
+
+button{
+    background-color:orangered;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+   padding: 8px;
+    text-align: center; 
+
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+
+}
+
+
+
