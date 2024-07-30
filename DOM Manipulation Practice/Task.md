@@ -38,6 +38,3 @@ In `script.js`:
 In `script.js`:
 - Create a new paragraph element with a unique ID and append it to the `<div>` with ID `container`. The content of the new `<p>` element should be “Dynamic Item X” where X is a number. You can manually set the number for this task.
 
-## Submission
-- Ensure your JavaScript code is well-commented to explain what each section does.
-- Include your HTML and JavaScript files in a zip folder or share a link to your GitHub repository with the files.
