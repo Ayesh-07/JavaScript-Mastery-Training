@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Event Handling Practice</title>
+</head>
+<body>
+
+   
+
+   <div class=" box1"> 😀 </div> 
+
+   <br>
+
+   <br>
+
+   <br>
+<!-- 
+   <h1>Press any key</h1>
+
+   <p id="output"></p>
+   
+   <div class=" box2"> 😇 </div> -->
+
+
+
+   <div id="container">
+    <h1>Contact Us 😇</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required >
+
+            <!-- inline Js -->
+             <!-- onkeydown="document.getElementById('container' ).style.background = this.value"; -->
+
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required   >
+            
+            <!-- onkeyup="document.getElementById('container' ).style.background = this.value"; -->
+            
+            
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required  ></textarea>
+            
+            <!-- onkeypress="document.getElementById('container' ).style.background = this.value"; -->
+            
+           
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<br>
+<br>
+<br>
+
+<button onclick="openWindow()">Open Window </button>
+<button onclick="closeWindow()">Close Window </button>
+
+   <script src="script.js"></script>
+    
+</body>
+</html>
